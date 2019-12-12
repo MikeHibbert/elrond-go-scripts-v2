@@ -7,7 +7,7 @@ SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 source $SCRIPTPATH/config/variables.cfg
 
 #Handle some paths
-export GOPATH=$HOME/go
+#export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 
